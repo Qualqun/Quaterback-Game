@@ -1,0 +1,27 @@
+{
+  "card.shield.name": "Bouclier",
+  "card.shield.summary": "Ajoute un bouclier qui protege une unite d'une attaque.",
+  "card.grab.name": "Attirer",
+  "card.grab.summary": "Attrape une unité jusqu'à deux cases de distance et la tire vers vous.",
+  "card.push.name": "Poussée",
+  "card.push.summary": "Repousse une unité à deux cases de vous.",
+  "card.addap.name": "PA supplementaire",
+  "card.addap.summary": "Ajoute un point d'action pour le tour actuel.",
+  "card.heal.name": "Soin",
+  "card.heal.summary": "Donne 2 HP a une unite.",
+
+  "shield.effect.apply": "Bouclier",
+  "shield.effect.blocked": "Bloque",
+
+  "lang.fr": "Francais",
+  "lang.en": "Anglais",
+
+  "unit.regular.name": "Normal",
+  "unit.regular.summary": "Juste un zombie normal.",
+  "unit.winger.name": "Aillier",
+  "unit.winger.summary": "Une fois par tour, se deplace de 2 cases.",
+  "unit.tank.name": "Defenseur",
+  "unit.tank.summary": "Inflige 1 degat quand il se fait attaquer.",
+  "unit.boss.name": "Boss",
+  "unit.boss.summary": "Le meilleur en fait"
+}

@@ -1,0 +1,27 @@
+{
+  "card.shield.name": "Shield",
+  "card.shield.summary": "Adds a shield to an unit which will cancel the next damages.",
+  "card.grab.name": "Grab",
+  "card.grab.summary": "Grabs an unit two cells away and pulls it toward your unit.",
+  "card.push.name": "Knockback",
+  "card.push.summary": "Pushes an unit two cells away from your unit.",
+  "card.addap.name": "Additionnal AP",
+  "card.addap.summary": "Adds one action point for the current turn.",
+  "card.heal.name": "Heal",
+  "card.heal.summary": "Gives 2 HP to a unit.",
+
+  "shield.effect.apply": "Shield",
+  "shield.effect.blocked": "Blocked",
+
+  "lang.fr": "French",
+  "lang.en": "English",
+
+  "unit.regular.name": "Regular",
+  "unit.regular.summary": "Just a normal zombie.",
+  "unit.winger.name": "winger",
+  "unit.winger.summary": " Once per turn : you can move two cell for 1 mana.",
+  "unit.tank.name": "Tank",
+  "unit.tank.summary": "Inflict 1 damage whenever this unit take damage.",
+  "unit.boss.name": "Boss",
+  "unit.boss.summary": "Simply the best"
+}

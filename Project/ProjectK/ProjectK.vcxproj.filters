@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\Game">
+      <UniqueIdentifier>{bf35cce1-3bc6-4b95-80b1-d2abfd621929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game">
+      <UniqueIdentifier>{4df0ddd5-965d-4cfb-a413-b34773531831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Utilities">
+      <UniqueIdentifier>{6180ac58-5d10-4e0e-8943-ac0cfc40deba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Utilities">
+      <UniqueIdentifier>{52fc50c2-352f-4604-9eaf-b033fdd5dae4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Cards">
+      <UniqueIdentifier>{614f2346-ece7-41c5-986d-d0808302b9f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Cards">
+      <UniqueIdentifier>{b7053685-da0e-48a4-8253-40a156ec80e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Utilities\API">
+      <UniqueIdentifier>{f621ce57-4a6b-42e4-becf-9e5c806e8d91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Utilities\API">
+      <UniqueIdentifier>{2b38f626-7455-4125-8424-d47234385734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Particles">
+      <UniqueIdentifier>{d8b64bf9-09fb-4924-87e1-314d2ca43fcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Particles">
+      <UniqueIdentifier>{54684760-4372-4c86-aeee-b70d2da8991c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Game.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Utilities.cpp">
+      <Filter>Fichiers sources\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\HUD.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Grid.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Fichiers sources\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="TextBox.cpp">
+      <Filter>Fichiers sources\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Translator.cpp">
+      <Filter>Fichiers sources\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="dist\jsoncpp.cpp">
+      <Filter>Fichiers sources\Utilities\API</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>Fichiers sources\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>Fichiers sources\Game\Cards</Filter>
+    </ClCompile>
+    <ClCompile Include="CardStack.cpp">
+      <Filter>Fichiers sources\Game\Cards</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\GameStates.cpp">
+      <Filter>Fichiers sources\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Token.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Duel.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="DustParticle.cpp">
+      <Filter>Fichiers sources\Game\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="HealParticle.cpp">
+      <Filter>Fichiers sources\Game\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="HitParticle.cpp">
+      <Filter>Fichiers sources\Game\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="Particles.cpp">
+      <Filter>Fichiers sources\Game\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="ShieldParticle.cpp">
+      <Filter>Fichiers sources\Game\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="WindParticle.cpp">
+      <Filter>Fichiers sources\Game\Particles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Game.hpp">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.hpp">
+      <Filter>Fichiers d%27en-tête\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Utilities.hpp">
+      <Filter>Fichiers d%27en-tête\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\HUD.hpp">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Grid.hpp">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.hpp">
+      <Filter>Fichiers d%27en-tête\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="TextBox.hpp">
+      <Filter>Fichiers d%27en-tête\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Translator.hpp">
+      <Filter>Fichiers d%27en-tête\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="dist\json\json.h">
+      <Filter>Fichiers d%27en-tête\Utilities\API</Filter>
+    </ClInclude>
+    <ClInclude Include="dist\json\json-forwards.h">
+      <Filter>Fichiers d%27en-tête\Utilities\API</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.hpp">
+      <Filter>Fichiers d%27en-tête\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="CardStack.hpp">
+      <Filter>Fichiers d%27en-tête\Game\Cards</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\GameStates.hpp">
+      <Filter>Fichiers d%27en-tête\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Token.hpp">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.hpp">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Duel.hpp">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.hpp">
+      <Filter>Fichiers d%27en-tête\Game\Cards</Filter>
+    </ClInclude>
+    <ClInclude Include="DustParticle.hpp">
+      <Filter>Fichiers d%27en-tête\Game\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="HealParticle.hpp">
+      <Filter>Fichiers d%27en-tête\Game\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="HitParticle.hpp">
+      <Filter>Fichiers d%27en-tête\Game\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="ShieldParticle.hpp">
+      <Filter>Fichiers d%27en-tête\Game\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="WindParticle.hpp">
+      <Filter>Fichiers d%27en-tête\Game\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Particles.hpp">
+      <Filter>Fichiers d%27en-tête\Game\Particles</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
